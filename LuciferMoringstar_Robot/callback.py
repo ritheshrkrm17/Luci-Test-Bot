@@ -21,8 +21,8 @@
 # SOFTWARE.
 
 # Telegram Link : https://telegram.dog/Mo_Tech_Group
-# Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
-# License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
+# Repo Link : https://github.com/ritheshrkrm17/LuciferMoringstar-Robot
+# License Link : https://github.com/ritheshrkrm17/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
 
 import asyncio 
 from pyrogram import Client as lucifermoringstar_robot, enums
@@ -60,7 +60,7 @@ async def cb_handler(bot, update):
             if int(index) == int(data["total"]) - 2:
                 buttons = data['buttons'][int(index)+1].copy()
                 buttons.append(
-                    [InlineKeyboardButton("🔙", callback_data=f"backgroup_{int(index)+1}_{keyword}"),
+                    [InlineKeyboardButton("⬅ ᴘʀᴇᴠɪᴏᴜꜱ ꜰɪʟᴇꜱ", callback_data=f"backgroup_{int(index)+1}_{keyword}"),
                      InlineKeyboardButton(f"📃 {int(index)+2}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close")]
                 )
@@ -74,10 +74,10 @@ async def cb_handler(bot, update):
             else:
                 buttons = data['buttons'][int(index)+1].copy()
                 buttons.append(
-                    [InlineKeyboardButton("🔙", callback_data=f"backgroup_{int(index)+1}_{keyword}"),
+                    [InlineKeyboardButton("⬅ ᴘʀᴇᴠɪᴏᴜꜱ ꜰɪʟᴇꜱ", callback_data=f"backgroup_{int(index)+1}_{keyword}"),
                      InlineKeyboardButton(f"📃 {int(index)+2}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close"),
-                     InlineKeyboardButton("➡", callback_data=f"nextgroup_{int(index)+1}_{keyword}")]
+                     InlineKeyboardButton("ᴍᴏʀᴇ ꜰɪʟᴇꜱ ➡", callback_data=f"nextgroup_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🤖 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙿𝙼 🤖", url=f"https://telegram.dog/{temp.Bot_Username}")]
@@ -97,7 +97,7 @@ async def cb_handler(bot, update):
                 buttons.append(
                     [InlineKeyboardButton(f"📃 {int(index)}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close"),
-                     InlineKeyboardButton("➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
+                     InlineKeyboardButton("ᴍᴏʀᴇ ꜰɪʟᴇꜱ ➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🤖 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙿𝙼 🤖", url=f"https://telegram.dog/{temp.Bot_Username}")]
@@ -107,10 +107,10 @@ async def cb_handler(bot, update):
             else:
                 buttons = data['buttons'][int(index)-1].copy()
                 buttons.append(
-                    [InlineKeyboardButton("🔙", callback_data=f"backgroup_{int(index)-1}_{keyword}"),
+                    [InlineKeyboardButton("⬅ ᴘʀᴇᴠɪᴏᴜꜱ ꜰɪʟᴇꜱ", callback_data=f"backgroup_{int(index)-1}_{keyword}"),
                      InlineKeyboardButton(f"📃 {int(index)}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close"),
-                     InlineKeyboardButton("➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
+                     InlineKeyboardButton("ᴍᴏʀᴇ ꜰɪʟᴇꜱ ➡", callback_data=f"nextgroup_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(text="🤖 𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙿𝙼 🤖", url=f"https://telegram.dog/{temp.Bot_Username}")]
@@ -128,7 +128,7 @@ async def cb_handler(bot, update):
             if int(index) == int(data["total"]) - 2:
                 buttons = data['buttons'][int(index)+1].copy()
                 buttons.append(
-                    [InlineKeyboardButton("🔙", callback_data=f"backbot_{int(index)+1}_{keyword}"),
+                    [InlineKeyboardButton("⬅ ᴘʀᴇᴠɪᴏᴜꜱ ꜰɪʟᴇꜱ", callback_data=f"backbot_{int(index)+1}_{keyword}"),
                      InlineKeyboardButton(f"📃 {int(index)+2}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close")]
                 )
@@ -138,10 +138,10 @@ async def cb_handler(bot, update):
             else:
                 buttons = data['buttons'][int(index)+1].copy()
                 buttons.append(
-                    [InlineKeyboardButton("🔙", callback_data=f"backbot_{int(index)+1}_{keyword}"),
+                    [InlineKeyboardButton("⬅ ᴘʀᴇᴠɪᴏᴜꜱ ꜰɪʟᴇꜱ", callback_data=f"backbot_{int(index)+1}_{keyword}"),
                      InlineKeyboardButton(f"📃 {int(index)+2}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close"),
-                     InlineKeyboardButton("➡", callback_data=f"nextbot_{int(index)+1}_{keyword}")]
+                     InlineKeyboardButton("ᴍᴏʀᴇ ꜰɪʟᴇꜱ ➡", callback_data=f"nextbot_{int(index)+1}_{keyword}")]
                 )
 
                 await update.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(buttons))                
@@ -159,7 +159,7 @@ async def cb_handler(bot, update):
                 buttons.append(
                     [InlineKeyboardButton(f"📃 {int(index)}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close"),
-                     InlineKeyboardButton("➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
+                     InlineKeyboardButton("ᴍᴏʀᴇ ꜰɪʟᴇꜱ ➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
                 )
 
                 await update.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(buttons))                
@@ -167,10 +167,10 @@ async def cb_handler(bot, update):
             else:
                 buttons = data['buttons'][int(index)-1].copy()
                 buttons.append(
-                    [InlineKeyboardButton("🔙", callback_data=f"backbot_{int(index)-1}_{keyword}"),
+                    [InlineKeyboardButton("⬅ ᴘʀᴇᴠɪᴏᴜꜱ ꜰɪʟᴇꜱ", callback_data=f"backbot_{int(index)-1}_{keyword}"),
                      InlineKeyboardButton(f"📃 {int(index)}/{data['total']}", callback_data="pages"),
                      InlineKeyboardButton("🗑️", callback_data="close"),
-                     InlineKeyboardButton("➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
+                     InlineKeyboardButton("ᴍᴏʀᴇ ꜰɪʟᴇꜱ ➡", callback_data=f"nextbot_{int(index)-1}_{keyword}")]
                 )
                 await update.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(buttons))                
                 return
@@ -231,7 +231,7 @@ async def cb_handler(bot, update):
 
             FILE_CAPTION = settings["caption"]
             caption = FILE_CAPTION.format(mention=update.from_user.mention, file_name=title, size=size, caption=files.caption)
-            buttons = [[ InlineKeyboardButton("⚜️ 𝚂𝙷𝙰𝚁𝙴 𝙼𝙴 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝙵𝚁𝙸𝙴𝙽𝙳𝚂 ⚜️", url=f"https://t.me/share/url?url=Best%20AutoFilter%20Bot%20%0A%40LuciferMoringstar_Robot%0A@{temp.Bot_Username}") ]]
+            buttons = [[ InlineKeyboardButton("⚜️ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⚜️", url=f"https://t.me/blasters_monthly") ]]
             if settings["savefiles"]:
                 protect_content = True
             else:
@@ -292,7 +292,7 @@ async def cb_handler(bot, update):
             title = files.file_name
             size = get_size(files.file_size)
             caption = CUSTOM_FILE_CAPTION.format(mention=update.from_user.mention, file_name=title, size=size, caption=files.caption)
-            buttons = [[ InlineKeyboardButton("⚜️ 𝚂𝙷𝙰𝚁𝙴 𝙼𝙴 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝙵𝚁𝙸𝙴𝙽𝙳𝚂 ⚜️", url=f"https://t.me/share/url?url=Best%20AutoFilter%20Bot%20%0A%40LuciferMoringstar_Robot%0A@{temp.Bot_Username}") ]]
+            buttons = [[ InlineKeyboardButton("⚜️ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⚜️", url=f"https://t.me/blasters_monthly") ]]
             try:
                 await bot.send_cached_media(chat_id=update.from_user.id, file_id=file_id, caption=caption, reply_markup=InlineKeyboardMarkup(buttons), protect_content=SAVE_FILES)            
             except Exception as e:
@@ -318,9 +318,9 @@ async def cb_handler(bot, update):
                 pass
         elif update.data == "about":
             try:
-                buttons = [[ InlineKeyboardButton("📦 𝚂𝙾𝚄𝚁𝙲𝙴 📦", url="https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot")],
+                buttons = [[ InlineKeyboardButton("📦 𝚂𝙾𝚄𝚁𝙲𝙴 📦", url="https://github.com/ritheshrkrm17/LuciferMoringstar-Robot")],
                       [ InlineKeyboardButton("𝙷𝙾𝙼𝙴", callback_data="start"), InlineKeyboardButton("𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴", callback_data="usage"), InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴", callback_data="close") ]]                     
-                await update.message.edit(ABOUT_MESSAGE.format(name=CREATOR_NAME, username=CREATOR_USERNAME, py3_version=temp.PY3_VERSION, pyro_version=temp.PYRO_VERSION, version=temp.BOT_VERSION, source="https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot"), reply_markup=InlineKeyboardMarkup(buttons))
+                await update.message.edit(ABOUT_MESSAGE.format(name=CREATOR_NAME, username=CREATOR_USERNAME, py3_version=temp.PY3_VERSION, pyro_version=temp.PYRO_VERSION, version=temp.BOT_VERSION, source="https://github.com/ritheshrkrm17/LuciferMoringstar-Robot"), reply_markup=InlineKeyboardMarkup(buttons))
             except MessageNotModified:
                 pass
         elif update.data == "usage":

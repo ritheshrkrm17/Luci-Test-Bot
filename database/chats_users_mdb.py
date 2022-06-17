@@ -21,8 +21,8 @@
 # SOFTWARE.
 
 # Telegram Link : https://telegram.dog/Mo_Tech_Group
-# Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
-# License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
+# Repo Link : https://github.com/ritheshrkrm17/LuciferMoringstar-Robot
+# License Link : https://github.com/ritheshrkrm17/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
 
 import motor.motor_asyncio, datetime
 from LuciferMoringstar_Robot import DATABASE_NAME, DATABASE_URI, SINGLE_BUTTON, REQUEST_MOVIE, SPELL_MODE, SPELL_TEXT, WELCOME_TEXT, MELCOW_NEW_USERS, MOVIE_TEXT, CUSTOM_FILE_CAPTION, SAVE_FILES, FILE_MODE    

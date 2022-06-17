@@ -52,5 +52,5 @@ async def answer(bot, update):
         await update.answer(results = [], is_personal = True, cache_time = cache_time, switch_pm_text = switch_pm_text, switch_pm_parameter = "okay")
 
 def get_reply_markup(query):
-    buttons = [[ InlineKeyboardButton('🔍 Search Again 🔎', switch_inline_query_current_chat=query) ]]
+    buttons = [[ InlineKeyboardButton("⚜️ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⚜️", url=f"https://t.me/blasters_monthly") ]]
     return InlineKeyboardMarkup(buttons)
