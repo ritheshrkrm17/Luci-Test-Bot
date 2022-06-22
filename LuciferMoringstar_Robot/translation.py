@@ -39,12 +39,12 @@ Thats All, i will Provide Movies There...🤓🤪
 HELP_MESSAGE = """
     🙋🏻‍♂️   Hellooo  {mention} 🤓
 
-○  Tutorila video is here @rai_info17 
+○  Tutorial video is here @rai_info17 
 
 ○  it's Note Complicated...🤓
 
 ○  Search using inline mode
-This methord works on any chat, Just type @shinobuxrai_bot and then leave a space and search any movie you want...
+This methord works on any chat, Just type @Esdeathxrai_bot and then leave a space and search any movie you want...
 
 ○ Available Commands
      
