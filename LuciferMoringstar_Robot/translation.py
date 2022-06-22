@@ -25,10 +25,13 @@
 # License Link : https://github.com/ritheshrkrm17/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
 
 START_MESSAGE = """
-ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {mention}....!!!!
-ɪᴀᴍ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ ʙᴏᴛ ʜᴇʀᴇ
-ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀꜱ ᴀᴅᴍɪɴ ɪ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ/ꜱᴇʀɪᴇꜱ :)
-ᴘᴏᴡᴇʀᴇᴅ ʙʏ @raixpiro_bot"""
+𝐘𝐨..𝐘𝐨.. {mention} , I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group ....
+
+Its Easy To Use Me; Just Add Me To Your Group As Admin, 
+Thats All, i will Provide Movies There...🤓🤪
+
+
+©️MᴀɪɴᴛᴀɪɴᴇD Bʏ @raixpiro_bot"""
 
 HELP_MESSAGE = """
 𝙷𝙴𝙻𝙻𝙾 {mention}
