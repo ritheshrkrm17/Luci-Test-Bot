@@ -24,18 +24,41 @@
 # Repo Link : https://github.com/ritheshrkrm17/LuciferMoringstar-Robot
 # License Link : https://github.com/ritheshrkrm17/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
 
-START_MESSAGE = """
-𝐘𝐨..𝐘𝐨.. {mention} , I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group ....
+START_MESSAGE = """Yo...Yo... {mention} 💖
+I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group
 
 Its Easy To Use Me; Just Add Me To Your Group As Admin, 
 Thats All, i will Provide Movies There...🤓🤪
 
 
-©️MᴀɪɴᴛᴀɪɴᴇD Bʏ @raixpiro_bot"""
+⚠️More Help Check Help Button Below
+
+
+©️MᴀɪɴᴛᴀɪɴᴇD Bʏ @rithesh_rkrm_17"""
 
 HELP_MESSAGE = """
-𝙷𝙴𝙻𝙻𝙾 {mention}
-𝙸 𝙲𝙰𝙽 𝙶𝚄𝙸𝙳𝙴 𝚈𝙾𝚄 𝚃𝙷𝚁𝙾𝚄𝙶𝙷 𝙰𝙻𝙻 𝙾𝙵𝙵 [{name}](https://t.me/{username})', 𝙲𝙾𝙾𝙻 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂 𝙰𝙽𝙳 𝙷𝙾𝚆 𝚃𝙾 𝙿𝚁𝙾𝙿𝙴𝚁𝙻𝚈 𝚄𝚂𝙴 𝚃𝙷𝙴𝙼. 𝚃𝙷𝙴 𝙱𝚄𝚃𝚃𝙾𝙽𝚂 𝙱𝙴𝙻𝙾𝚆 𝚃𝙾 𝙽𝙰𝚅𝙸𝙶𝙰𝚃𝙴 𝚃𝙷𝙴𝙾𝚄𝙶𝙷 𝙰𝙻𝙻 𝙾𝙵 𝚃𝙷𝙴 𝙼𝙾𝙳𝚄𝙻𝙴𝚂
+    🙋🏻‍♂️   Hellooo  {mention} 🤓
+
+○  Tutorila video is here @rai_info17 
+
+○  it's Note Complicated...🤓
+
+○  Search using inline mode
+This methord works on any chat, Just type @TGMovieRobot and then leave a space and search any movie you want...
+
+○ Available Commands
+     
+ /start - Check I'm Alive..
+ /info - User info 
+ /id - User id
+ /broadcast - Broadcast (owner only)
+ /total - Db status  (owner only )
+
+○ Notice 📙:-
+
+○Dont Spam Me...🤒
+
+©️MᴀɪɴᴛᴀɪɴᴇD Bʏ @rithesh_rkrm_17
 """
 
 ABOUT_MESSAGE = """
